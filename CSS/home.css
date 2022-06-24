@@ -26,10 +26,7 @@ header {
 
 .logo {
     display: flex;
-    height: 100px;
-    width: 100px;
-    position: relative;
-    left: 10px;
+    align-items: center;
 }
 
 .content {
