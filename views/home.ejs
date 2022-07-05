@@ -6,32 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wendy</title>
-    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="stylesheets/headerfooter.css">
+    <link rel="stylesheet" href="stylesheets/home.css" />
 </head>
 
 <body>
-    <header>
-
-        <div class="content">
-            <nav>
-                <img class="logo" src="./images/logo.png" alt="logo">
-                <p id="text1" class="brand">Wendy<strong>Taylor</strong></p>
-                <ul>
-                    <li><a href="#sobre">Sobre nós</a></li>
-                    <li><a href="#joias">Joias</a></li>
-                    <li><a href="#bijouteria">Bijouteria</a></li>
-                    <button>Login</button>
-                    <button>Cadastro</button>
-                </ul>
-            </nav>
-            <div class="header-block">
-                <div class="text">
-
-                </div>
-                <img src="images/header.png" alt="Card" />
-
-            </div>
-    </header>
+    <%- include(./partials/header.ejs) %>
     <section class="catalog" id="catalog">
         <div class="content">
             <div class="title-wrapper-catalog">
