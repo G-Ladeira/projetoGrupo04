@@ -11,7 +11,41 @@
 </head>
 
 <body>
-    <%- include(./partials/header.ejs) %>
+    <header>
+
+        <div class="content">
+            <nav class="nav-bar">
+                <img class="logo" src="./images/logo.png" alt="logo">
+
+
+
+                <nav id="nav">
+                    <button id="btn-mobile"><img src="images/menu-icon.png" alt="Icon menu" class="menu-icon"></button>
+                    <ul id="menu" class="links">
+
+                        <li class="sobre"><a href="#sobreNos.ejs">Sobre nós</a></li>
+                        <li class="sobre"><a href="#joias">Joias</a></li>
+                        <li class="sobre"><a href="#bijouteria">Bijouteria</a></li>
+                        <button class="btn-login">Login</button>
+                        <button class="btn-cadastro">Cadastro</button>
+
+                    </ul>
+                </nav>
+
+
+
+
+                <!--<div class="header-block">
+
+                <div>
+                    <img class='img01' src="./images/header.png" width="80%" alt="img1">
+                </div>
+                 </div>  -->
+        </div>
+        </div>
+
+    </header>
+
     <section class="catalog" id="catalog">
         <div class="content">
             <div class="title-wrapper-catalog">
@@ -24,7 +58,7 @@
             </div>
             <div class="card-wrapper">
                 <div class="card-item">
-                    <img src="images/joias2.png" alt="Car" />
+                    <img src="images/joias2.png" alt="joia" />
                     <div class="card-content">
                         <h3>Pulseiras</h3>
                         <p>
@@ -34,7 +68,7 @@
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="images/joias2.png" alt="Car" />
+                    <img src="images/joias2.png" alt="joia" />
                     <div class="card-content">
                         <h3>Brincos</h3>
                         <p>
@@ -44,7 +78,7 @@
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="images/joias2.png" alt="Car" />
+                    <img src="images/joias2.png" alt="joia" />
                     <div class="card-content">
                         <h3>Pingentes</h3>
                         <p>
@@ -54,7 +88,7 @@
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="images/joias2.png" alt="Car" />
+                    <img src="images/joias2.png" alt="joia" />
                     <div class="card-content">
                         <h3>Anéis</h3>
                         <p>
@@ -64,7 +98,7 @@
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="images/joias2.png" alt="Car" />
+                    <img src="images/joias2.png" alt="joia" />
                     <div class="card-content">
                         <h3>Alianças</h3>
                         <p>
@@ -74,7 +108,7 @@
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="images/joias2.png" alt="Car" />
+                    <img src="images/joias2.png" alt="joia" />
                     <div class="card-content">
                         <h3>Relógio</h3>
                         <p>
@@ -117,5 +151,8 @@
         <div class="last">wendytaylor 2022 - São paulo -Brasil</div>
     </footer>
 </body>
+
+<script src="/javaScript/home.js">
+</script>
 
 </html>
