@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy Taylor</title>
+    <link rel='stylesheet' href='/stylesheets/index.css' />
+    <link rel='stylesheet' href='/stylesheets/header.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <!- HEADER ->
+    <%- include('./partials/header') %> 
+    <!- As classe estao organikdnjsvjdnfglk ->
+    <div class="i-conteiner">
+
+      <div class="i-top"></div>
+
+      <div class="i-left">
+        <% for(let produto of produtos){ %>
+          
+            <div class="l-card">  
+              <div class="l-imagem">
+                <img src="images/<%=produto.img%>" alt="<%=produto.alt%>">
+                <h2><%= produto.nome %></h2>
+              </div>
+              <div class="l-texto">
+                <a href=""></a>
+                
+                <br><p> <%=produto.texto%> </p><br>
+                <label class="l-label"><a>Cod:<%=produto.cod%></a></label>   
+              </div> 
+            </div>      
+        <% } %>  
+      </div>
+        
+      
+
+      <div class="i-rigth">
+        <div class="container">
+          <p id="i-frase">Wendy é <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+        </div>
+      </div>
+
+    </div>
+
+    <section id="p-produtos">
+
+      <div class="fundo">
+       
+    
+    
+
+
+    </section>
+    <div class="id-footer">
+      <%- include('./partials/footer.ejs') %>
+    </div>
   </body>
+  <script src="javascripts/header.js"></script>
 </html>
