@@ -1,0 +1,46 @@
+header{
+  height: auto;
+}
+
+.user{
+  height: 415px;
+  background-color: yellow;
+  display: flex;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.info-left{
+  width: 30%;
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cards-info{
+  border: solid 2px black;
+  height: 50px;
+  width: 80%;
+}
+
+.info-center-user{
+  width: 70%;
+  border: solid 2px red;
+}
+
+.meus-pedidos{
+  width: 100%;
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.meus-pedidos img{
+  width: 35px;
+  height: 35px;
+  color: red;
+}
+

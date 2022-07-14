@@ -11,22 +11,7 @@
 </head>
 
 <body>
-    <header>
-
-        <div class="content">
-            <nav>
-                <img class="logo" src="./images/logo.png" alt="logo">
-                <p id="text1" class="brand">Wendy<strong>Taylor</strong></p>
-                <ul>
-                    <li><a href="#sobre">Sobre nós</a></li>
-                    <li><a href="#joias">Joias</a></li>
-                    <li><a href="#bijouteria">Bijouteria</a></li>
-                    <button>Login</button>
-                    <button>Cadastro</button>
-                </ul>
-            </nav> 
-    </header>
-
+    <%- include(./partials/header.ejs) %>
     <section class="content">
       <div class="subtitle">
         <h2> X produtos encontrados</h2>
@@ -108,31 +93,7 @@
       </div>
   </section>
 
-    <footer>
-        <div class="main">
-            <div class="content footer-links">
-                <div class="footer-company">
-                    <h4>Sobre nós</h4>
-
-                </div>
-
-                <div class="footer-social">
-                    <h4>Redes sociais</h4>
-                    <div class="social-icons">
-                        <img src="images/instagram.png" alt="Instagram" />
-                        <img src="images/facebook.png" alt="Facebook" />
-                    </div>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact </h4>
-                    <h6>+55 11 988776655</h6>
-                    <h6>wendytaylor.com.br</h6>
-                    <h6>Nome da Rua, são paulo - SP</h6>
-                </div>
-            </div>
-        </div>
-        <div class="last">wendytaylor 2022 - São paulo -Brasil</div>
-    </footer>
+  <%- include('./partials/footer.ejs') %>
 
 </body>
 
